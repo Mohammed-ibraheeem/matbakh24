@@ -10,7 +10,7 @@ function About() {
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="img-h">
-                                <img src={imge1} alt="..." />
+                                <img src={imge1} alt="..." className='move-image' />
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
@@ -40,7 +40,6 @@ function About() {
                                             <li>
                                                 <span>
                                                     ثم تأكيد طلب الوجبة، ودفع ثمنها.
-
                                                 </span>
                                             </li>
                                             <li>
@@ -50,7 +49,6 @@ function About() {
                                             <li>
                                                 <span>
                                                     كما أنك تستطيع كتابة ملاحظاتك حول تجربتك مع استخدام تطبيق مطبخ 24.
-
                                                 </span>
                                             </li>
                                         </ul>
@@ -115,14 +113,14 @@ function About() {
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="img-h">
-                                <img src={imge2} alt="..." />
+                                <img src={imge2} alt="..." className='move-image' />
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="img-h">
-                                <img src={imge3} alt="..." />
+                                <img src={imge3} alt="..." className='move-image' />
                             </div>
                         </div>
                         <div class="col-12 col-md-6">

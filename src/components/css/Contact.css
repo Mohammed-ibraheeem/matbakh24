@@ -1,0 +1,179 @@
+.contact-h {
+  padding: 80px 100px;
+  background: #fffbf0;
+}
+section {
+  position: relative;
+}
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.justify-content-around {
+  justify-content: space-around !important;
+}
+.contact-h .title {
+  text-align: center;
+}
+.contact-us-form {
+  background: #ef743212;
+  max-width: 800px;
+  margin: 40px auto 0;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.p-5 {
+  padding: 3rem !important;
+}
+.contact-us-form h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #1b2e4b;
+  font-size: 22.512px;
+  text-align: center;
+  margin: 0 0 30px;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.wpcf7 .screen-reader-response {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  word-wrap: normal !important;
+}
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #565656;
+}
+ul {
+  box-sizing: border-box;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  padding-inline-start: 20px;
+  transition: all 0.3s linear;
+}
+.contact-us-form .contact-us-form {
+  background: transparent;
+}
+.contact-us-form {
+  max-width: 800px;
+  margin: 40px auto 0;
+}
+form {
+  display: block;
+}
+input {
+  outline: none !important;
+}
+input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.form-row .col-6,
+.form-row .col-12,
+.form-row .col-sm-12 {
+  padding: 0 15px;
+}
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+.wpcf7-form-control-wrap {
+  position: relative;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e5e9f2;
+  border-radius: 0.25rem;
+  border-color: #fdbc00;
+  font-size: 14px;
+  height: 48px;
+  text-align: right;
+}
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+textarea.form-control {
+  height: 115px;
+  padding: 20px;
+  min-height: calc(1.5em + 0.75rem + 2px);
+}
+textarea {
+  margin: 0;
+  font-family: inherit;
+}
+.mt-3 {
+  margin-top: 1rem !important;
+}
+button#btnContactUs {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #fdbc00;
+  border-radius: 50px;
+  padding: 8px 35px;
+  line-height: 1.75em;
+  position: relative;
+  transition: all 300ms ease-in-out;
+  box-shadow: none !important;
+  color: white;
+}
+button#btnContactUs:hover {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff6900;
+  border-radius: 50px;
+  padding: 8px 35px;
+  line-height: 1.75em;
+  position: relative;
+  transition: all 300ms ease-in-out;
+  box-shadow: none !important;
+  color: white;
+}
+.btn-brand {
+  background-color: #fdbc00;
+  border-color: #fdbc00;
+  color: #fff;
+}

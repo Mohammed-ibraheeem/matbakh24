@@ -126,6 +126,8 @@
   margin: auto;
   margin-top: 110px;
   margin-left: 100px;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3 ease all;
 }
 .s1 {
   color: white;
@@ -144,4 +146,12 @@
 }
 .div-5 {
   margin-left: 20px;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
 }

@@ -1,0 +1,70 @@
+.cook-h {
+  padding: 80px 100px;
+  background: #fffbf0;
+}
+.row > * {
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+.cook-block {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 480px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+a {
+  text-decoration: none;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  color: #000;
+  transition: all 0.3s linear;
+}
+.cook-block .img-block,
+.cook-block .img-block img {
+  width: 100%;
+  height: 100%;
+}
+.cook-block .img-block img {
+  object-fit: cover;
+  object-position: center;
+}
+img {
+  max-width: 100%;
+}
+.cook-block .details {
+  position: absolute;
+  left: 35px;
+  top: 35px;
+  right: 35px;
+  bottom: 35px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+.cook-block .details h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}

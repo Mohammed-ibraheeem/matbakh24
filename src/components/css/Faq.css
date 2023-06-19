@@ -1,0 +1,102 @@
+.faq-h {
+  padding: 100px 200px;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.faq-h .title {
+  text-align: center;
+}
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.faq-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+.faq-content .accordion-item {
+  border-bottom: 1px solid #dee2e6 !important;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 8px 0;
+}
+.accordion-header {
+  margin-bottom: 0;
+}
+.h2 h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+.h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h2 {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.faq-content .accordion-item .accordion-button {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  color: #444;
+  box-shadow: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: start;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.accordion-button {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border: 0;
+  border-radius: 0;
+  /*overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border-radius 0.15s ease;*/
+}
+button {
+  margin: 0;
+  font-family: inherit;
+}
+.faq-content .accordion-item .accordion-body {
+  padding: 20px;
+}
+p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #565656;
+}
+.about-thumb.mx-auto {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+img {
+  vertical-align: middle;
+}
+img {
+  max-width: 100%;
+}

@@ -128,3 +128,17 @@ ul.cele-list li ul li {
   border-color: #ff6900;
   color: #fff;
 }
+.move-image {
+  margin: 10px 0;
+  animation: mover 1.5s infinite alternate;
+  transition: 0.3 ease all;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
