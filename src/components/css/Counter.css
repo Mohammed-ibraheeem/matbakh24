@@ -1,0 +1,45 @@
+.counter-h {
+  padding: 40px 200px;
+  overflow: hidden;
+}
+.overlay-img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  backdrop-filter: blur(75px);
+  background: #000;
+}
+.overlay-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.7;
+}
+.im_icon {
+  font-size: 46px;
+  color: #fdbc00;
+  margin: 0;
+  line-height: 70px;
+  max-height: 70px;
+}
+.count-data {
+  backdrop-filter: blur(10px);
+  background: rgb(255 255 255 / 10%);
+  border-radius: 10px;
+  padding: 20px !important;
+}
+.count-data span {
+  font-size: 15px;
+  line-height: 1.75;
+}
+.count-data .counter-item {
+  margin: 5px 0;
+  font-size: 35.264px;
+  font-weight: bold;
+}

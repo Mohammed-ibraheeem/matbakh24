@@ -1,0 +1,221 @@
+section {
+  display: block;
+}
+.span-1 {
+  color: #fdbc00;
+}
+.offers-h {
+  padding: 100px 180px;
+  overflow: hidden;
+}
+.offers-h overlay-img {
+  position: fixed;
+}
+section,
+footer {
+  position: relative;
+}
+.offers-h .small-border {
+  margin: 30px 0;
+}
+.small-border {
+  width: 100px;
+  height: 2px;
+  background: var(--main-color);
+  border-left: none;
+  border-right: none;
+  display: block;
+  margin: 30px auto;
+}
+.overlay-img {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  backdrop-filter: blur(75px);
+  background: #000;
+}
+.overlay-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.7;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.align-items-center {
+  -ms-flex-align: center !important;
+  -webkit-box-align: center !important;
+  align-items: center !important;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+.offers-h .title h5 {
+  -webkit-text-stroke-color: var(--main-color);
+}
+.title h5 {
+  -webkit-text-stroke-color: var(--main-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0) !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  font-size: 59px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.offers-h .title h2 {
+  color: #fff;
+}
+.title h2 {
+  letter-spacing: 1px;
+  font-size: 36px;
+  margin-top: 0;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.offers-h .small-border {
+  margin: 30px 0;
+}
+.small-border {
+  width: 100px;
+  height: 2px;
+  background: #fdbc00 var(--main-color);
+  background-color: #fdbc00;
+  border-left: none;
+  border-right: none;
+  display: block;
+  margin: 30px auto;
+}
+/* {
+  box-sizing: border-box;
+  font-family: "Jazeera";
+}*/
+.offers-h h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+.offers-h p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 30px;
+}
+
+.image-with-counter {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+.h5,
+h5 {
+  font-size: 1.25rem;
+}
+.image-with-counter img {
+  width: 90%;
+  height: auto;
+  padding-left: 5%;
+}
+.image-with-counter .div-5 {
+  top: 0;
+  text-align: center;
+  position: absolute;
+  color: #ffffff;
+  background: #fdbc00 var(--main-color);
+  background-color: #fdbc00;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  padding-top: 45px;
+  right: 0;
+  margin: 25px;
+}
+.image-with-counter .div-5 .counter-item {
+  font-size: 36px;
+  letter-spacing: 0px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+  line-height: 29px;
+  font-weight: bold;
+}
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-default .odometer-digit {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+  display: inline-block;
+  vertical-align: middle;
+  visibility: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+.odometer.odometer-theme-default .odometer-digit .odometer-ribbon {
+  display: block;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+.odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner {
+  display: block;
+}
+.odometer.odometer-auto-theme .odometer-digit .odometer-value,
+.odometer.odometer-theme-default .odometer-digit .odometer-value {
+  display: block;
+}
