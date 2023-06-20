@@ -29,8 +29,7 @@ function ScreenShot() {
                         </div>
                         <div class="screen-carousel owl-carousel owl-loaded owl-drag">
                             <div class="owl-stage-outer">
-
-                                <OwlCarousel items={4} margin={30} autoplay={true} loop={true} >
+                                <OwlCarousel items={4} margin={60} autoplay={true} loop={true} >
                                     <div ><img className="img" src={image1} alt='...' /></div>
                                     <div><img className="img" src={image2} alt='...' /></div>
                                     <div><img className="img" src={image3} alt='...' /></div>
