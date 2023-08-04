@@ -1,4 +1,10 @@
 import './css/Features1.css'
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import image1 from './image/5.jpg'
+import image2 from './image/4.jpeg'
+import image3 from './image/555.jpeg'
 import image9 from './image/google-play.png'
 import image10 from './image/apple-logo (1).png'
 function Features1() {
@@ -9,14 +15,13 @@ function Features1() {
                     <div class="col-12 col-md-4">
                         <div class="features-slider-wrapper overflow-hidden">
                             <ul class="features-slider owl-carousel owl-loaded owl-drag">
-                                <div class="owl-stage-outer">
-                                    <div class="owl-stage">
-                                        <div class="owl-item cloned">
-                                            <li class="slide-item">
-                                                <img src="" alt="" />
-                                            </li>
-                                        </div>
-                                    </div>
+                                {/*  <div class="owl-stage-outer">*/}
+                                <div class="owl-stage">
+                                    <OwlCarousel items={4} margin={60} autoplay={true} loop={true} >
+                                        <div ><img className="img-slider" src={image1} alt='...' /></div>
+                                        <div><img className="img-slider" src={image2} alt='...' /></div>
+                                        <div><img className="img-slider" src={image3} alt='...' /></div>
+                                    </OwlCarousel>
                                 </div>
                             </ul>
                         </div>
@@ -60,7 +65,7 @@ function Features1() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 export default Features1;

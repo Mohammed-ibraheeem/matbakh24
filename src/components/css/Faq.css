@@ -14,6 +14,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 .faq-content {
   max-width: 760px;
   margin: 0 auto;
@@ -21,10 +22,10 @@
 .faq-content .accordion-item {
   border-bottom: 1px solid #dee2e6 !important;
   background-color: #fff;
-  background-clip: border-box;
+  /*background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  margin: 8px 0;
+  margin: 8px 0;*/
 }
 .accordion-header {
   margin-bottom: 0;
@@ -61,15 +62,21 @@ h2 {
   border-top-right-radius: calc(0.25rem - 1px);
 }
 .accordion-button {
+  position: relative;
   display: flex;
   align-items: center;
+  width: 100%;
   padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
   border: 0;
   border-radius: 0;
-  /*overflow-anchor: none;
+  overflow-anchor: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
-    border-radius 0.15s ease;*/
+    border-radius 0.15s ease;
 }
 button {
   margin: 0;

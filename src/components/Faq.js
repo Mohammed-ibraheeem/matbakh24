@@ -1,4 +1,5 @@
 import image1 from './image/اسكرينة-سوال-وجواب.png'
+import { Link } from "react-router-dom";
 import './css/Faq.css'
 function Faq() {
     return (
@@ -127,9 +128,9 @@ function Faq() {
                         </div>
                         <div className="col-md-12">
                             <div className="btn-center">
-                                <a href=' ' className="btn">
+                                <Link to="/faq" href=' ' className="btn">
                                     <span>المزيد</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

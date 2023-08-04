@@ -1,5 +1,10 @@
 import './css/Blogs.css'
+import { Link } from "react-router-dom";
 import image1 from './image/clock-five.png'
+import image2 from './image/burger.png'
+import image3 from './image/cookies.png'
+import image4 from './image/محشي.png'
+//import image5 from './image/makdous.png'
 function Blogs() {
     return (
         <section dir='rtl' class="blogs-h">
@@ -18,7 +23,7 @@ function Blogs() {
                         <div class="news-block big-block">
                             <div class="img-block">
                                 <a href=" " class="img" >
-                                    <img src="" alt="#" />
+                                    <img src={image2} alt="#" />
                                 </a>
                             </div>
                             <div class="details" >
@@ -41,7 +46,7 @@ function Blogs() {
                         <div class="news-block big-block">
                             <div class="img-block">
                                 <a href=" " class="img" >
-                                    <img src="" alt="#" />
+                                    <img src={image3} alt="#" />
                                 </a>
                             </div>
                             <div class="details" >
@@ -64,7 +69,7 @@ function Blogs() {
                         <div class="news-block big-block">
                             <div class="img-block">
                                 <a href=" " class="img" >
-                                    <img src="" alt="#" />
+                                    <img src={image4} alt="#" />
                                 </a>
                             </div>
                             <div class="details" >
@@ -84,9 +89,9 @@ function Blogs() {
                     </div>
                     <div class="col-md-12">
                         <div class="btn-center">
-                            <a href=" " class="btn" >
+                            <Link to="/blog" href=" " class="btn" >
                                 <span>المزيد</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
