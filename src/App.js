@@ -23,7 +23,7 @@ function App() {
     <>
 
       <Routes>
-        <Route path='/matbakh24' element={
+        <Route path='matbakh24' element={
           <>
             <Navbar />
             <First />
@@ -41,8 +41,8 @@ function App() {
             <Client />
             <Footer />
           </>} />
-        <Route path='/matbakh24/blog' element={<Moreblogs />} />
-        <Route path='/matbakh24/faq' element={<Morefaq />} />
+        <Route path='matbakh24/blog' element={<Moreblogs />} />
+        <Route path='matbakh24/faq' element={<Morefaq />} />
       </Routes>
     </>
   );
