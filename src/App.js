@@ -23,7 +23,7 @@ function App() {
     <>
 
       <Routes>
-        <Route path='matbakh24/1' element={
+        <Route path='matbakh24/' element={
           <>
             <Navbar />
             <First />
